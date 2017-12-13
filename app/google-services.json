@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "363330540057",
+    "firebase_url": "https://miaucha-56a1f.firebaseio.com",
+    "project_id": "miaucha-56a1f",
+    "storage_bucket": "miaucha-56a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363330540057:android:0f22a5e388804682",
+        "android_client_info": {
+          "package_name": "br.com.rafaeldangelobergami.miaucha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363330540057-l8m8fho2r12iefp5pvrbmb07sfv73ktu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.rafaeldangelobergami.miaucha",
+            "certificate_hash": "5f2bc5424680b66e5ecae36b8d3d4436bf0d5100"
+          }
+        },
+        {
+          "client_id": "363330540057-be3ptbkgnp8r327j9grf1pdd7o0sufnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZPvardmCb1ye7d1jj8Ddsyy1xo8t7ovo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363330540057-be3ptbkgnp8r327j9grf1pdd7o0sufnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

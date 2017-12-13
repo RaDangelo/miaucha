@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Miaucha</string>
+    <!--<string name="title_activity_login">Sign in</string>-->
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up"> Sign up</string>
+    <string name="action_log_in">Log in</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="registration">Register</string>
+    <string name="picture_success">Picture successfully taken!</string>
+    <string name="registration_success">You\'ve just signed up!</string>
+    <string name="main_menu">Main menu</string>
+    <string name="profile">Profile</string>
+    <string name="find_cat">Find My Cat</string>
+    <string name="register_cat">Register Cat</string>
+    <string name="title_activity_cat_search">Map</string>
+    <string name="cat_registration_title">Cat Registration</string>
+    <string name="cat_search_title">Cat Search</string>
+
+    <!-- Strings CatRegistration -->
+    <string name="gps_not_allowed"> GPS not allowed by user!</string>
+    <string name="cat_description">Describe your cat...</string>
+    <string name="phone">Phone</string>
+    <string name="cat_name">Cat name</string>
+    <string name="cat_registration_success">Cat registered successfully!</string>
+
+    <!-- Cat salutes -->
+    <string name="salute_0">Let\'s meet! =D</string>
+    <string name="salute_1">Would you like to be my family?</string>
+    <string name="salute_2">Could you adopt me?</string>
+    <string name="salute_3">Will you be my friend?</string>
+    <string name="salute_4">I swear I\'m not gonna eat your couch!</string>
+
+    <string name="cat_found_default">There\'s a cat here!</string>
+</resources>

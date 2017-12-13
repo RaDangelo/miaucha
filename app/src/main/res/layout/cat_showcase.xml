@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/catImage1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/catImage2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="84dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/catImage3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="168dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/catImage4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="252dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cat_name_showcase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contextClickable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cat_description_showcase"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material.Small"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/owner_showcase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/phone_showcase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:contextClickable="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:onClick="callNumber"
+            android:paddingLeft="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.rafaeldangelobergami.miaucha.CatRegistrationActivity">
+
+    <TextView
+        android:id="@+id/profileText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_cat"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:textColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/catPhoto1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/catPhoto2"
+        android:layout_gravity="left"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:onClick="takePicture"
+        app:srcCompat="@mipmap/catfacebook" />
+
+    <ImageView
+        android:id="@+id/catPhoto2"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="@dimen/cat_left_margin"
+        android:layout_marginTop="@dimen/cat_line_1_top_margin"
+        android:adjustViewBounds="false"
+        android:onClick="takePicture"
+        app:srcCompat="@mipmap/catfacebook" />
+
+    <ImageView
+        android:id="@+id/catPhoto3"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/cat_line_2_top_margin"
+        android:onClick="takePicture"
+        app:srcCompat="@mipmap/catfacebook" />
+
+    <ImageView
+        android:id="@+id/catPhoto4"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/cat_left_margin"
+        android:layout_marginTop="@dimen/cat_line_2_top_margin"
+        android:onClick="takePicture"
+        app:srcCompat="@mipmap/catfacebook" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp">
+
+        <EditText
+            android:id="@+id/catNameText"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/cat_name"
+            android:textColor="@color/colorAccent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="145dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp">
+
+        <EditText
+            android:id="@+id/phoneText"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/phone"
+            android:textColor="@color/colorAccent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp">
+
+        <EditText
+            android:id="@+id/descriptionText"
+            android:layout_width="368dp"
+            android:layout_height="71dp"
+            android:hint="@string/cat_description"
+            android:textColor="@color/colorAccent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        app:srcCompat="@mipmap/mapssmall" />
+
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="440dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabCatRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="446dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_check_black_24dp" />
+
+</RelativeLayout>
